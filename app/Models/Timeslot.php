@@ -50,7 +50,7 @@ class Timeslot extends Model
     }
     
     public function countAvailableTimeslots(){
-      return (config('cinema.theatre_limit') - $this->bookings->count());
+      return (config('cinema.theatre_limit') - $this->bookings->sum('ticket_count'));
     }
     
     public function cancelable(){
