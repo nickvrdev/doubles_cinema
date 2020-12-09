@@ -5,7 +5,7 @@ This is the "Doubles Cinema Experience" built on Laravel 8
 1) Clone this repository to a host which supports Laravel 8
 https://laravel.com/docs/8.x/deployment#server-requirements
 
-2) Run `composer update` from the base directory to load all the required dependencies.
+2) Run `composer update` from the base directory to install all the required dependencies.
 
 3) Create a database on MySQL and update the .env DB connections details and while you're there you might as well give your website cinema a snazzy name
 
