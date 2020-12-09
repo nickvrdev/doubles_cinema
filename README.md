@@ -5,9 +5,11 @@ This is the "Doubles Cinema Experience" built on Laravel 8
 1) Clone this repository to a host which supports Laravel 8
 https://laravel.com/docs/8.x/deployment#server-requirements
 
-2) Create a database on MySQL and update the .env DB connections details and while you're there you might as well give your website cinema a snazzy name
+2) Run `composer update` from the base directory to load all the required dependencies.
 
-3) In order to populate the database use the command from the base directory `php artisan migrate:refresh --seed`
+3) Create a database on MySQL and update the .env DB connections details and while you're there you might as well give your website cinema a snazzy name
+
+4) In order to populate the database use the command from the base directory `php artisan migrate:refresh --seed`
 This will rollback all migrations, insert all migrations and also seed the database with data.
 
 #Description of tools and frameworks used
